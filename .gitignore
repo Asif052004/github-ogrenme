@@ -1,0 +1,26 @@
+# GitHub ogrenme reposu - yok sayilacak dosyalar
+
+# Uygulamanin urettigi veri dosyasi (herkesin kendi notlari)
+notlar.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / isletim sistemi
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Gizli dosyalar (asla commit etme)
+.env
+*.pem
+*.key
