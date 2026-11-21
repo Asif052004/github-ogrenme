@@ -3,6 +3,10 @@
 # Uygulamanin urettigi veri dosyasi (herkesin kendi notlari)
 notlar.json
 
+# Oyun modu: oyun alani ve ilerleme kaydi
+oyun-alani/
+oyun-durum.json
+
 # Python
 __pycache__/
 *.py[cod]

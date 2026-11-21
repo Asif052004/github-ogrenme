@@ -9,10 +9,31 @@ Burada teoriğin en azı, komutların en çoğu var: her ders dosyası sonunda
 yapabileceğin gerçek görevler bulunuyor. Repo'nun kendisi de ders boyunca
 kullanılan canlı bir örnek (commit geçmişi, branch'ler, tag ve CI ile).
 
+## Oyun modu (10 level)
+
+Git'i oyun gibi öğrenmek istersen:
+
+```bash
+python oyun.py
+```
+
+`oyun.py` senin yerine komut çalıştırmaz; `oyun-alani/` içinde kurduğun gerçek
+bir git deposunu okur, görevleri doğrular, XP ve rütbe verir. 10 level, 1550 XP,
+son levelda depoyu GitHub'a push ediyorsun.
+
+```bash
+python oyun.py kontrol   # görevleri doğrula + XP ver
+python oyun.py harita    # level haritası
+python oyun.py ipucu     # sıkışınca
+```
+
+Detaylar: [OYUN.md](OYUN.md)
+
 ## İçindekiler
 
 | # | Konu | Dosya |
 |---|------|-------|
+| 🎮 | 10 levellik oyun | [OYUN.md](OYUN.md) |
 | 1 | Git temelleri: init, status, add, commit, log | [docs/01-git-temelleri.md](docs/01-git-temelleri.md) |
 | 2 | Branch ve merge | [docs/02-dallar-ve-birlestirme.md](docs/02-dallar-ve-birlestirme.md) |
 | 3 | Remote, pull request ve review | [docs/03-pull-request.md](docs/03-pull-request.md) |
