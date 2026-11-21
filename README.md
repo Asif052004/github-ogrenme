@@ -1,5 +1,8 @@
 # github-ogrenme
 
+[![CI](https://github.com/Asif052004/github-ogrenme/actions/workflows/ci.yml/badge.svg)](https://github.com/Asif052004/github-ogrenme/actions/workflows/ci.yml)
+[![Lisans: MIT](https://img.shields.io/badge/lisans-MIT-blue.svg)](LICENSE)
+
 Git ve GitHub'ı **yaparak** öğrenmek için açılmış küçük bir alıştırma deposu.
 
 Burada teoriğin en azı, komutların en çoğu var: her ders dosyası sonunda
